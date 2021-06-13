@@ -1,0 +1,3 @@
+/home/devops/Desktop/Project/banker_p/build/CMakeFiles/rebuild_cache.dir
+/home/devops/Desktop/Project/banker_p/build/CMakeFiles/app.exe.dir
+/home/devops/Desktop/Project/banker_p/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/banker.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/devops/Desktop/Project/banker_p/client/main.c
+stdio.h
+-
+stdlib.h
+-
+banker.h
+/home/devops/Desktop/Project/banker_p/client/banker.h
+
+/home/devops/Desktop/Project/banker_p/src/accept.c
+banker.h
+/home/devops/Desktop/Project/banker_p/src/banker.h
+
+/home/devops/Desktop/Project/banker_p/src/add.c
+
+/home/devops/Desktop/Project/banker_p/src/banker_algo.c
+banker.h
+/home/devops/Desktop/Project/banker_p/src/banker.h
+
+/home/devops/Desktop/Project/banker_p/src/print.c
+banker.h
+/home/devops/Desktop/Project/banker_p/src/banker.h
+
+/home/devops/Desktop/Project/banker_p/src/res_request.c
+banker.h
+/home/devops/Desktop/Project/banker_p/src/banker.h
+
+/home/devops/Desktop/Project/banker_p/src/safety.c
+
